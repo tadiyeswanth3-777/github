@@ -1,0 +1,15 @@
+text = "python program language"
+
+print(text.upper())
+print(text.lower())
+print(text.find("program"))
+print(text.capitalize())
+print(text.count("a"))
+print(text.isalpha())
+print(text.isdigit())
+print(text.isalnum())
+print(text.startswith("python"))
+print(text.endswith("language"))
+print("+".join(text))
+print(text.split("+"))
+print(text.replace("python", "java"))
